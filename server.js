@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 
 const connectDB = require('./config/db');
-const errorHandler = require('./middleware/error');
+const errorHandler = require('./src/middleware/error');
 
 // Load env vars
 dotenv.config({ path: './config/config.env' });
